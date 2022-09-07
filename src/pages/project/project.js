@@ -1,14 +1,11 @@
-import "./home.css";
-import Introduction from "../../component/introduction/introduction";
-import HomePageHeader from "../../component/homePageHeader/homePageHeader";
+import "./project.css";
 import LinkCard from "../../component/linkCard/linkCard";
-import Footer from "../../component/footer/footer";
+import HomePageHeader from "../../component/homePageHeader/homePageHeader";
 
-function Home() {
+function Project() {
   return (
     <div className="home_page">
-      <HomePageHeader name="Dezhi(Geralt) Ren" />
-      <Introduction />
+      <HomePageHeader name="My Projects" />
       <div className="navigation-button">
         <LinkCard
           name="My tech stack"
@@ -24,10 +21,8 @@ function Home() {
           description="Click to review my contact information!"
         />
       </div>
-      <hr className="cutline" />
-      <Footer />
     </div>
   );
 }
 
-export default Home;
+export default Project;

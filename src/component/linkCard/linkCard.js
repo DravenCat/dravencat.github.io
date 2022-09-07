@@ -32,7 +32,7 @@ export default class LinkCard extends Component {
             }}
           >
             <Heading size="lg" margin="5px" mb="10">
-              <LinkOverlay href="#" mb="1em">
+              <LinkOverlay href={this.props.link} mb="1em">
                 {this.props.name}
               </LinkOverlay>
             </Heading>
