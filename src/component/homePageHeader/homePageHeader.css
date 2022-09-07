@@ -1,0 +1,16 @@
+.header {
+  position: relative;
+}
+
+.name {
+  text-align: center;
+  font-size: 3rem;
+  color: whitesmoke;
+}
+
+.career {
+  text-align: center;
+  font-size: 1.5rem;
+  margin-bottom: 2vh;
+  color: whitesmoke;
+}
