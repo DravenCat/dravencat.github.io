@@ -13,6 +13,13 @@ import DescriptionBtn from "../descriptionBtn/descriptionBtn";
 
 export default class DescriptionCard extends Component {
   render() {
+    let button;
+    if (this.props.websiteLink)
+      button = (
+        <Button colorScheme="teal" size="sm" ml="10px">
+          <a href={this.props.websiteLink}>visit website</a>
+        </Button>
+      );
     return (
       <ChakraProvider>
         <Grid
@@ -52,9 +59,7 @@ export default class DescriptionCard extends Component {
               title={this.props.title}
               details={this.props.details}
             />
-            <Button colorScheme="teal" size="sm" ml="10px">
-              <a href={this.props.websiteLink}>visit website</a>
-            </Button>
+            {button}
           </GridItem>
         </Grid>
       </ChakraProvider>
