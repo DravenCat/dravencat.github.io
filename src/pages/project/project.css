@@ -1,6 +1,19 @@
+.project-page {
+  min-height: 150vh;
+  padding-top: 5vh;
+  background-image: url(../../images/backgrouds/background.png);
+  background-size: contain;
+  background-position: top center;
+  background-attachment: fixed;
+}
+
 .project-button {
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
+}
+
+.project-element {
+  margin: 10px;
 }

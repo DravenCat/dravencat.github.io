@@ -7,7 +7,7 @@ import Footer from "../../component/footer/footer";
 function Home() {
   return (
     <div className="home_page">
-      <HomePageHeader name="Dezhi(Geralt) Ren" />
+      <HomePageHeader name="Dezhi(Geralt) Ren" career="- software developer" />
       <Introduction />
       <div className="navigation-button">
         <LinkCard

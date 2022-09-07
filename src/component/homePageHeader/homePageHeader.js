@@ -6,7 +6,7 @@ export default class HomePageHeader extends Component {
     return (
       <div className="header">
         <div className="name">{this.props.name}</div>
-        <div className="career">- software developer</div>
+        <div className="career">{this.props.career}</div>
       </div>
     );
   }

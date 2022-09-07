@@ -9,6 +9,8 @@ import {
 } from "@chakra-ui/react";
 import { transforms } from "../../constants/motion";
 
+import DescriptionBtn from "../descriptionBtn/descriptionBtn";
+
 export default class DescriptionCard extends Component {
   render() {
     return (
@@ -34,21 +36,22 @@ export default class DescriptionCard extends Component {
           }}
         >
           <GridItem pl="2" area={"header"}>
-            <Text>{this.props.name}</Text>
+            <Text fontSize="1.2rem">{this.props.name}</Text>
           </GridItem>
           <GridItem pl="2" area={"nav"}>
             <Image src={this.props.imgLink} height="150px" width="200px" />
           </GridItem>
           <GridItem pl="2" area={"main"}>
-            <Text>{this.props.description}</Text>
+            <Text fontSize="1.7rem">{this.props.description}</Text>
           </GridItem>
-          <GridItem pl="2" area={"footer"}>
+          <GridItem pl="2" area={"footer"} flexDirection="row" display="flex">
             <Button colorScheme="teal" size="sm">
               <a href={this.props.sourceLink}>view source code</a>
             </Button>
-            <Button colorScheme="teal" size="sm" ml="10px">
-              <a>description</a>
-            </Button>
+            <DescriptionBtn
+              title={this.props.title}
+              details={this.props.details}
+            />
             <Button colorScheme="teal" size="sm" ml="10px">
               <a href={this.props.websiteLink}>visit website</a>
             </Button>

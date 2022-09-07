@@ -6,10 +6,29 @@ import EmpowerUAfrica from "../../images/imgs/EmpowerUAfrica.png";
 
 function Project() {
   return (
-    <div className="home_page">
+    <div className="project-page">
       <HomePageHeader name="My Projects" />
       <div className="project-button">
-        <DescriptionCard imgLink={EmpowerUAfrica} />
+        <div className="project-element">
+          <DescriptionCard
+            name="SlackerTracker"
+            imgLink={EmpowerUAfrica}
+            description="An app built by React and Node.js
+          Using Neo4j and MySql as Database"
+            title="EmpowerUAfrica"
+            details="hello"
+          />
+        </div>
+        <div className="project-element">
+          <DescriptionCard
+            name="EmpowerUAfrica"
+            imgLink={EmpowerUAfrica}
+            description="An app built by React and Node.js
+          Using Neo4j and MySql as Database"
+            title="EmpowerUAfrica"
+            details="hello"
+          />
+        </div>
       </div>
     </div>
   );
