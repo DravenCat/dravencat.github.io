@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/static/css/main.b48efc8a.css",
+    "main.js": "/static/js/main.fe73c051.js",
+    "static/media/EmpowerUAfrica.png": "/static/media/EmpowerUAfrica.7aad5d62b60cc5e0009f.png",
+    "static/media/background.png": "/static/media/background.910549eb16899eb6fb3c.png",
+    "static/media/JDBC.png": "/static/media/JDBC.c2e5f75c3dc6e918815f.png",
+    "static/media/postgresql.png": "/static/media/postgresql.b0e8eea5d41b8e315c56.png",
+    "static/media/slackertracker.png": "/static/media/slackertracker.f468d51dd7bb9f6b5a1f.png",
+    "static/media/react.jpg": "/static/media/react.bd7afdf9b9f2f9aa1ec4.jpg",
+    "static/media/zoomer.png": "/static/media/zoomer.6a24e7820d5e605da00b.png",
+    "static/media/css.png": "/static/media/css.8a182087615a3845ebac.png",
+    "static/media/nodejs.png": "/static/media/nodejs.abfaef34ea49d0c7cd3c.png",
+    "static/media/docker.png": "/static/media/docker.6d1afdb456643d603142.png",
+    "static/media/mysql.png": "/static/media/mysql.9abb470bd3a3e2290e39.png",
+    "static/media/html.png": "/static/media/html.7d984b24a3110df3c2d1.png",
+    "static/media/mongodb.png": "/static/media/mongodb.01ecea01d2b6d631f7f4.png",
+    "static/media/pintos.png": "/static/media/pintos.b8cae9e8cb2663e75bcc.png",
+    "static/media/nginx.jpg": "/static/media/nginx.714734c77a369913b287.jpg",
+    "static/media/Neo4j.png": "/static/media/Neo4j.e1e0f30a4b1da0310ff7.png",
+    "index.html": "/index.html",
+    "main.b48efc8a.css.map": "/static/css/main.b48efc8a.css.map",
+    "main.fe73c051.js.map": "/static/js/main.fe73c051.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b48efc8a.css",
+    "static/js/main.fe73c051.js"
+  ]
+}
