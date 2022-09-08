@@ -9,7 +9,6 @@ import {
   ModalCloseButton,
   Button,
   useDisclosure,
-  Text,
 } from "@chakra-ui/react";
 
 function DescriptionBtn(props) {
@@ -32,11 +31,7 @@ function DescriptionBtn(props) {
         <ModalContent>
           <ModalHeader>{props.title}</ModalHeader>
           <ModalCloseButton />
-          <ModalBody>
-            <Text fontWeight="bold" mb="1rem">
-              {props.details}
-            </Text>
-          </ModalBody>
+          <ModalBody>{props.details}</ModalBody>
 
           <ModalFooter>
             <Button colorScheme="blue" mr={3} onClick={onClose}>
