@@ -13,7 +13,8 @@ function Navigation() {
           Home
         </Nav.Item>
         <Nav.Item>TechStack</Nav.Item>
-        <Nav.Item>Contact</Nav.Item>
+        <Nav.Item href="/project">Project</Nav.Item>
+        <Nav.Item href="/contact">Contact</Nav.Item>
       </Nav>
     </Navbar>
   );

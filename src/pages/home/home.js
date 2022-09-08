@@ -22,6 +22,7 @@ function Home() {
         <LinkCard
           name="Contact me"
           description="Click to review my contact information!"
+          link="/contact"
         />
       </div>
       <hr className="cutline" />

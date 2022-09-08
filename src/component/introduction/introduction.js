@@ -8,7 +8,7 @@ export default class Introduction extends Component {
         <div className="content">
           <div className="header">Who I am</div>
           <hr />
-          <div className="details">
+          <div className="details" id="intro-content">
             <p>
               Hello! My name is Dezhi(Geralt) Ren. I am currently a fourth year
               student University of Toronto, specialist in computer science
