@@ -13,17 +13,17 @@ function Home() {
         <LinkCard
           name="My tech stack"
           description="Click to review my technology experience!"
-          link="/techStack"
+          link="/profile_page/techStack"
         />
         <LinkCard
           name="My project"
           description="Click to review my past project! Many of them are developed by React, Node.js, Java and C"
-          link="/project"
+          link="/profile_page/project"
         />
         <LinkCard
           name="Contact me"
           description="Click to review my contact information!"
-          link="/contact"
+          link="/profile_page/contact"
         />
       </div>
       <hr className="cutline" />
