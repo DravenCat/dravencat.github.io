@@ -1,6 +1,7 @@
 import "./project.css";
 import HomePageHeader from "../../component/homePageHeader/homePageHeader";
 import DescriptionCard from "../../component/descriptionCard/descriptionCard";
+import Navigation from "../../component/navigation/navigation";
 
 import EmpowerUAfrica from "../../images/imgs/EmpowerUAfrica.png";
 import SlackerTracker from "../../images/imgs/slackertracker.png";
@@ -218,6 +219,7 @@ function Project() {
 
   return (
     <div className="project-page">
+      <Navigation />
       <HomePageHeader name="My Projects" />
       <div className="project-button">
         <div className="project-element">
