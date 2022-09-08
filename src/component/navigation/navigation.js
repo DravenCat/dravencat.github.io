@@ -7,16 +7,14 @@ import HomeIcon from "@rsuite/icons/legacy/Home";
 function Navigation() {
   return (
     <Navbar fixed="top">
-      <Navbar.Brand href="/profile_page/#">
-        Geralt's personal website
-      </Navbar.Brand>
+      <Navbar.Brand href="/#">Geralt's personal website</Navbar.Brand>
       <Nav>
-        <Nav.Item href="/profile_page/#" icon={<HomeIcon />}>
+        <Nav.Item href="/#" icon={<HomeIcon />}>
           Home
         </Nav.Item>
-        <Nav.Item href="/profile_page/techStack">TechStack</Nav.Item>
-        <Nav.Item href="/profile_page/project">Project</Nav.Item>
-        <Nav.Item href="/profile_page/contact">Contact</Nav.Item>
+        <Nav.Item href="/techStack">TechStack</Nav.Item>
+        <Nav.Item href="/project">Project</Nav.Item>
+        <Nav.Item href="/contact">Contact</Nav.Item>
       </Nav>
     </Navbar>
   );
