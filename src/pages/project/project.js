@@ -275,7 +275,7 @@ function Project() {
             title="Personal Website"
             details={personalDescription}
             sourceLink="https://github.com/DravenCat/profile_page"
-            websiteLink="/#"
+            websiteLink="/#/"
           />
         </div>
         <div className="project-element">
