@@ -12,9 +12,9 @@ function Navigation() {
         <Nav.Item href="/#" icon={<HomeIcon />}>
           Home
         </Nav.Item>
-        <Nav.Item href="/techStack">TechStack</Nav.Item>
-        <Nav.Item href="/project">Project</Nav.Item>
-        <Nav.Item href="/contact">Contact</Nav.Item>
+        <Nav.Item href="/#/techStack">TechStack</Nav.Item>
+        <Nav.Item href="/#/project">Project</Nav.Item>
+        <Nav.Item href="/#/contact">Contact</Nav.Item>
       </Nav>
     </Navbar>
   );
