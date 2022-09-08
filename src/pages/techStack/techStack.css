@@ -1,0 +1,8 @@
+.techStack-page {
+  min-height: 100vh;
+  padding-top: 0vh;
+  background-image: url(../../images/backgrouds/background.png);
+  background-size: contain;
+  background-position: top center;
+  background-attachment: fixed;
+}

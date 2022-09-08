@@ -1,0 +1,43 @@
+.intro {
+  min-height: 30vh;
+  background-color: #87aad4;
+  width: 60%;
+  margin: 0 auto;
+  color: #292b2c;
+  border-radius: 10px;
+  box-shadow: 0 0 2px 1px gray;
+}
+
+.content {
+  text-align: center;
+}
+
+.header {
+  font-size: 2rem;
+  font-weight: bolder;
+  font-family: Serif;
+}
+
+.details {
+  text-indent: 2vw;
+  text-align: left;
+  padding: 3vh 3vw;
+}
+
+#techStack-link p {
+  font-size: 1.2rem;
+}
+
+#techStack-link .techStackImg {
+  max-width: 100px;
+  max-height: 100px;
+  margin: 10px;
+}
+
+#mongo {
+  max-width: 200px;
+  width: 200px;
+  max-height: 200px;
+  height: 200px;
+  scale: 1.5;
+}

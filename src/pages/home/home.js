@@ -13,6 +13,7 @@ function Home() {
         <LinkCard
           name="My tech stack"
           description="Click to review my technology experience!"
+          link="/techStack"
         />
         <LinkCard
           name="My project"
