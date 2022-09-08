@@ -14,6 +14,13 @@ import {
 
 function DescriptionBtn(props) {
   const { isOpen, onOpen, onClose } = useDisclosure();
+  let button;
+  if (props.videoLink)
+    button = (
+      <Button colorScheme="green">
+        <a href={props.videoLink}>Video demo</a>
+      </Button>
+    );
   return (
     <div>
       <Button colorScheme="teal" size="sm" ml="10px" onClick={onOpen}>
@@ -35,6 +42,7 @@ function DescriptionBtn(props) {
             <Button colorScheme="blue" mr={3} onClick={onClose}>
               Close
             </Button>
+            {button}
           </ModalFooter>
         </ModalContent>
       </Modal>

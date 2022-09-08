@@ -58,6 +58,7 @@ export default class DescriptionCard extends Component {
             <DescriptionBtn
               title={this.props.title}
               details={this.props.details}
+              videoLink={this.props.videoLink}
             />
             {button}
           </GridItem>
